@@ -9,7 +9,7 @@
 [![](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)](https://opencv.org/)
 [![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://code.visualstudio.com/  "Visual Studio Code")
 
-A simple Tkinter Application which recognizes handwritten digits. The model was trained on <a href="http://yann.lecun.com/exdb/mnist/"> MNIST </a> dataset and created using Tensorflow, Keras. After training, the model gave an accuracy of 99.11%. This model was then integrated with a Tkinter application which led to this project.
+A simple Tkinter Application which recognizes handwritten digits. The model was trained on MNIST dataset and created using Tensorflow, Keras. After training, the model gave an accuracy of 99.11%. This model was then integrated with a Tkinter application which led to this project.
  
 </div>
 
