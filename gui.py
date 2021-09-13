@@ -72,15 +72,11 @@ draw_area = Canvas(source, width=150, height=200, bg='white')
 draw_area.grid(row=0, column=0, pady=2, sticky=W, columnspan=2)
 
 draw_area.bind('<Button-1>', activate_event)
-sto = Style()
-sto.configure('W.RButton', font= ('Arial', 10, 'underline'),
-foreground='Green')
-sto.configure('W.CButton', font= ('Arial', 10, 'underline'),
-foreground='Red')
 btn_save = Button(text="Recognize the Digit",
-                  style='W.RButton', command=Recognize_Digit)
+                  command=Recognize_Digit, width=22)
 btn_save.grid(row=3, column=0, pady=1, padx=1, columnspan=2)
-button_clear = Button(text="Clear Area", style='W.CButton', command=clear_source)
+button_clear = Button(
+    text="Clear Area", command=clear_source, width=20)
 button_clear.grid(row=3, column=2, pady=1, padx=1, columnspan=3)
 
 source.mainloop()
