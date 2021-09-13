@@ -9,4 +9,49 @@
 [![](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)](https://opencv.org/)
 [![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://code.visualstudio.com/  "Visual Studio Code")
 
+A simple Tkinter Application which recognizes handwritten digits. The model was trained on <a href="http://yann.lecun.com/exdb/mnist/"> MNIST </a> dataset and created using Tensorflow, Keras. After training, the model gave an accuracy of 99.11%. This model was then integrated with a Tkinter application which led to this project.
+ 
 </div>
+
+## Initial Canvas:
+<img src="ss/blank_canvas.PNG">
+
+## Recognizing digits:
+<table>
+  <tr>
+     <td>0</td>
+     <td>1</td>
+     <td>2</td>
+  </tr>
+  <tr>
+    <td><img src="ss/0.PNG"></td>
+    <td><img src="ss/1.PNG"></td>
+    <td><img src="ss/2.PNG"></td>
+  </tr>
+ <tr>
+     <td>3</td>
+     <td>4</td>
+     <td>5</td>
+  </tr>
+  <tr>
+    <td><img src="ss/3.PNG"></td>
+    <td><img src="ss/4.PNG"></td>
+    <td><img src="ss/5.PNG"></td>
+  </tr>
+ <tr>
+     <td>6</td>
+     <td>7</td>
+     <td>8</td>
+  </tr>
+  <tr>
+    <td><img src="ss/6.PNG"></td>
+    <td><img src="ss/7.PNG"></td>
+    <td><img src="ss/8.PNG"></td>
+  </tr>
+ <tr>
+     <td>9</td>
+  </tr>
+  <tr>
+    <td><img src="ss/9.PNG"></td>
+  </tr>
+ </table>
