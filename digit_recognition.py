@@ -28,6 +28,6 @@ model.add(Dense(10, activation='softmax'))
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 model.fit(x=x_train,y=y_train, epochs=10)
 
-model.save('mnist.h5')
+model.save('model/mnist.h5')
 
 model.evaluate(x_test, y_test)
